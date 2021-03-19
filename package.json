@@ -1,0 +1,22 @@
+{
+  "name": "atelier-q-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "QandA-DB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDC-Who/Atelier-Q-A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDC-Who/Atelier-Q-A/issues"
+  },
+  "homepage": "https://github.com/SDC-Who/Atelier-Q-A#readme",
+  "dependencies": {
+    "mongoose": "^5.11.15"
+  }
+}
