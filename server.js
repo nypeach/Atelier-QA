@@ -20,9 +20,9 @@ Promise.promisifyAll(require("mysql/lib/Connection").prototype);
 Promise.promisifyAll(require("mysql/lib/Pool").prototype);
 
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: '3.140.192.171:3306',
   user: 'root',
-  password: '',
+  password: 'root',
   database: 'qanda'
 });
 
