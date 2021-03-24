@@ -25,4 +25,4 @@ MongoClient.connect(url, {
   })
 });
 
-//mongoimport --db qanda --collection answers --type csv --headerline --ignoreBlanks --file /Users/jodisilverman/seip2101/answers.csv
+//mongoimport --db qanda --collection products --type csv --headerline --ignoreBlanks --file /Users/jodisilverman/seip2101/product.csv

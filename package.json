@@ -2,9 +2,10 @@
   "name": "atelier-q-a",
   "version": "1.0.0",
   "description": "",
-  "main": "QandA-DB.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/SDC-Who/Atelier-Q-A#readme",
   "dependencies": {
-    "mongoose": "^5.11.15"
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.11.15",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "underscore": "^1.12.1",
+    "webpack": "^5.27.0"
   }
 }
