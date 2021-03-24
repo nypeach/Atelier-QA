@@ -41,6 +41,10 @@ app.listen(port, () => {
 
 // LIST QUESTIONS //==============================================================
 
+app.get('/qa/test', (req, res) => {
+  res.send(`HELLO WORLD!!`)
+})
+
 app.get('/qa/questions', (req, res) => {
   let pid = Number(req.query.product_id);
   let count = Number(req.query.count) || 5;
