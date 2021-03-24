@@ -4,7 +4,7 @@ USE qanda;
 
 CREATE TABLE product (
   id INT PRIMARY KEY
-)
+);
 
 CREATE TABLE questions (
   id INT PRIMARY KEY,
@@ -39,8 +39,8 @@ CREATE TABLE answers_photos (
 );
 
 
-LOAD DATA INFILE '/Users/jodisilverman/seip2101/product.csv'
-INTO TABLE tmp_product
+LOAD DATA INFILE '/productid.csv'
+INTO TABLE product
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
