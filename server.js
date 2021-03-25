@@ -20,13 +20,15 @@ Promise.promisifyAll(require("mysql/lib/Connection").prototype);
 Promise.promisifyAll(require("mysql/lib/Pool").prototype);
 
 const connection = mysql.createConnection({
-  host: 'http://ec2-3-16-57-199.us-east-2.compute.amazonaws.com:3000', //qanda.cluster-c9yf3vaxviye.us-east-1.rds.amazonaws.com
+  host: '3.140.192.171', //qanda.cluster-c9yf3vaxviye.us-east-1.rds.amazonaws.com
+  port: '3306',
   user: 'root', //root
   password: 'root', //ZprjheFp6QR
   database: 'qanda'
 });
 
 global.db = Promise.promisifyAll(connection);
+
 
 // SERVER PORT AND LISTENING SETUP //=========================================================
 
